@@ -138,7 +138,7 @@ export default function Home() {
             <p>
               <span className="mr-2">•</span>Contact:{" "}
               <Link href="mailto:laithaustin@utexas.edu" className="underline hover:text-gray-600 transition-colors">
-                laithaustin@utexas.edu
+                laithaustin[at]utexas[dot]edu
               </Link>
             </p>
 
