@@ -19,15 +19,26 @@ export default function Home() {
                   AI and Cloud Infra)
                 </li>
                 <li>
-                  <span className="mr-2">γ.</span>Founder of{" "}
+                  <span className="mr-2">β.</span>Founder of{" "} 
                   <Link
                     href="https://www.youtube.com/@fspodofficial"
                     className="underline hover:text-gray-600 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    From Scratch Podcast
+                   From Scratch Podcast 
                   </Link>
+                </li>
+                <li>
+                  <span className="mr-2">γ.</span>Working on {" "}
+                  <Link
+                    href="https://constellation-io.com/"
+                    className="underline hover:text-gray-600 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    an interesting project
+                  </Link> with friends
                 </li>
               </ul>
             </div>
@@ -36,7 +47,7 @@ export default function Home() {
               <p>Previously:</p>
               <ul className="ml-6 space-y-2 list-none">
                 <li>
-                  <span className="mr-2">β.</span>Software Engineer Intern at Aristocrat (Agentic Systems & AI
+                  <span className="mr-2">•</span>Software Engineer Intern at Aristocrat (Agentic Systems & AI
                   Infrastructure)
                 </li>
                 <li>
@@ -45,6 +56,9 @@ export default function Home() {
                 </li>
                 <li>
                   <span className="mr-2">•</span>Research Assistant at UT Austin Nuclear and Applied Robotics Group
+                </li>
+                <li>
+                  <span className="mr-2">•</span>Software Engineer Intern at Cisco 
                 </li>
               </ul>
             </div>
@@ -89,10 +103,7 @@ export default function Home() {
                   - Lox interpreters in Rust (tree-walk & bytecode VM)
                 </li>
                 <li>
-                  <span className="mr-2">•</span>Ad-Hoc Federated Learning - Optimizing FL algorithms for device dropout
-                </li>
-                <li>
-                  <span className="mr-2">•</span>Nera - Real-time business recommendation platform
+                  <span className="mr-2">•</span>WIP... need to update 
                 </li>
               </ul>
             </div>
@@ -110,7 +121,7 @@ export default function Home() {
             <p>
               <span className="mr-2">•</span>
               <Link
-                href="https://www.youtube.com/@fromscratchpodcast"
+                href="https://www.youtube.com/@fspodofficial"
                 className="underline hover:text-gray-600 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
