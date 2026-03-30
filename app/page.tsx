@@ -9,14 +9,21 @@ export default function Home() {
 
           {/* Main Content */}
           <div className="space-y-6 text-base leading-relaxed text-black">
-            <p>Software engineer | MS ECE @ UT Austin | ML systems and infrastructure</p>
+            <p>Cofounder @ Constellation Space| MS ECE @ UT Austin | ML systems and infrastructure</p>
 
             <div className="space-y-2">
               <p>Currently:</p>
               <ul className="ml-6 space-y-2 list-none">
                 <li>
-                  <span className="mr-2">α.</span>Software Engineer at Capital One (Microservices, 
-                  AI and Cloud Infra)
+                  <span className="mr-2">γ.</span>Building {" "}
+                  <Link
+                    href="https://constellationspace.ai/"
+                    className="underline hover:text-gray-600 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Constellation
+                  </Link> 
                 </li>
                 <li>
                   <span className="mr-2">β.</span>Founder of{" "} 
@@ -29,17 +36,6 @@ export default function Home() {
                    From Scratch Podcast 
                   </Link>
                 </li>
-                <li>
-                  <span className="mr-2">γ.</span>Working on {" "}
-                  <Link
-                    href="https://constellation-io.com/"
-                    className="underline hover:text-gray-600 transition-colors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    an interesting project
-                  </Link> with friends
-                </li>
               </ul>
             </div>
 
@@ -47,12 +43,12 @@ export default function Home() {
               <p>Previously:</p>
               <ul className="ml-6 space-y-2 list-none">
                 <li>
-                  <span className="mr-2">•</span>Software Engineer Intern at Aristocrat (Agentic Systems & AI
-                  Infrastructure)
+                  <span className="mr-2">•</span>Software Engineer at Capital One (Enterprise ML tooling &
+                  AI Infra)
                 </li>
                 <li>
-                  <span className="mr-2">•</span>Software Engineer Intern at Capital One (Enterprise ML tooling &
-                  Kubeflow)
+                  <span className="mr-2">•</span>Software Engineer Intern at Aristocrat (Agentic Systems & AI
+                  Infrastructure)
                 </li>
                 <li>
                   <span className="mr-2">•</span>Research Assistant at UT Austin Nuclear and Applied Robotics Group
@@ -103,7 +99,16 @@ export default function Home() {
                   - Lox interpreters in Rust (tree-walk & bytecode VM)
                 </li>
                 <li>
-                  <span className="mr-2">•</span>WIP... need to update 
+                  <span className="mr-2">•</span>
+                  <Link
+                    href="https://github.com/laithaustin/mine_agent_baselines"
+                    className="underline hover:text-gray-600 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    MineAgent 
+                  </Link>{" "}
+                  - RL Agents for Minecraft
                 </li>
               </ul>
             </div>
